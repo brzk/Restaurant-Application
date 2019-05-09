@@ -1,0 +1,9 @@
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\bin\Debug\netstandard2.0\RestaurantApplication.deps.json
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\bin\Debug\netstandard2.0\RestaurantApplication.dll
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\bin\Debug\netstandard2.0\RestaurantApplication.pdb
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\obj\Debug\netstandard2.0\RestaurantApplication.csprojAssemblyReference.cache
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\obj\Debug\netstandard2.0\RestaurantApplication.csproj.CoreCompileInputs.cache
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\obj\Debug\netstandard2.0\RestaurantApplication.AssemblyInfoInputs.cache
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\obj\Debug\netstandard2.0\RestaurantApplication.AssemblyInfo.cs
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\obj\Debug\netstandard2.0\RestaurantApplication.dll
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\RestaurantApplication\obj\Debug\netstandard2.0\RestaurantApplication.pdb
