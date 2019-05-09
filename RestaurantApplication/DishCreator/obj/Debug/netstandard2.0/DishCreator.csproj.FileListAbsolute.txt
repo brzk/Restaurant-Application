@@ -1,0 +1,12 @@
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\obj\Debug\netstandard2.0\DishCreator.csprojAssemblyReference.cache
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\obj\Debug\netstandard2.0\DishCreator.csproj.CoreCompileInputs.cache
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\obj\Debug\netstandard2.0\DishCreator.AssemblyInfoInputs.cache
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\obj\Debug\netstandard2.0\DishCreator.AssemblyInfo.cs
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\bin\Debug\netstandard2.0\DishCreator.deps.json
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\bin\Debug\netstandard2.0\DishCreator.dll
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\bin\Debug\netstandard2.0\DishCreator.pdb
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\bin\Debug\netstandard2.0\RestaurantApplication.dll
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\bin\Debug\netstandard2.0\RestaurantApplication.pdb
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\obj\Debug\netstandard2.0\DishCreator.csproj.CopyComplete
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\obj\Debug\netstandard2.0\DishCreator.dll
+D:\Projects\Git\Restaurant-Application\RestaurantApplication\DishCreator\obj\Debug\netstandard2.0\DishCreator.pdb

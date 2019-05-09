@@ -6,14 +6,14 @@ namespace RestaurantApplication
 {
     public abstract class Dish
     {
-        protected int MainRank { get; set; }
-        protected int SecondRank { get; set; }
-        protected int ThirdRank { get; set; }
-        protected int Price { get; set; }
-        protected int Quantity { get; set; }
+        public int MainRank { get; set; }
+        public int SecondRank { get; set; }
+        public int ThirdRank { get; set; }
+        public int Price { get; set; }
+        public int Quantity { get; set; }
         
-        protected readonly string Name;
-        protected readonly int DinerSerialNumber;
+        public readonly string Name; 
+        public readonly int DinerSerialNumber;
 
         public Dish(string name, int price , int quantity, int dinerSerialNumber)
         {
