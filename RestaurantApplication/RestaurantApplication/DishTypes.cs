@@ -6,6 +6,13 @@ namespace RestaurantApplication
 {
     public class DishTypes
     {
+
+        public enum eDishYypes
+        {
+            Appetizer,
+            MainDish
+        }
+
         public enum eAppetizer
         {
             ChickenNuggets,

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using static RestaurantApplication.DishTypes;
 
 namespace DishCreator
 {
@@ -11,7 +12,7 @@ namespace DishCreator
        
         public override void SetMainDishRank()
         {
-            if (DishRanks.AppetizerRanks.TryGetValue(Appetizer.AppetizerType, out int rank))
+            if (DishRanks.DishesRank.TryGetValue(eDishYypes.Appetizer, out int rank))
             {
                 Appetizer.MainRank = rank;
             }
@@ -19,12 +20,15 @@ namespace DishCreator
 
         public override void SetSecondDishRank()
         {
-            throw new NotImplementedException();
+            Appetizer.SecondRank = 1;            
         }
 
         public override void SetThirdDishRank()
         {
-            throw new NotImplementedException();
+            if (DishRanks.AppetizerRanks.TryGetValue(Appetizer.AppetizerType, out int rank))
+            {
+                Appetizer.MainRank = rank;
+            }
         }
         public override void SetDishPrice()
         {
