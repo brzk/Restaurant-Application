@@ -8,6 +8,9 @@ namespace RestaurantApplication
     public class MainDish : Dish
     {
         public eMainDish MainDishType { get; set; }
-        public MainDish(string name, int price, int quantity, int dinerSerialNumber, eMainDish mainDishType) : base(name, price, quantity, dinerSerialNumber) { }       
+        public MainDish(string name, int price, int quantity, int dinerSerialNumber, eMainDish mainDishType) : base(name, price, quantity, dinerSerialNumber)
+        {
+            MainDishType = mainDishType;
+        }       
     }
 }

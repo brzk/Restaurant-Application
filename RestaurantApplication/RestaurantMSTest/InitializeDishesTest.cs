@@ -16,10 +16,25 @@ namespace RestaurantMSTest
         }
 
         [TestMethod]
+        public void InitializeAppetizer2()
+        {
+            Appetizer appetizer = InitializeDishes.InitializeAppetizer("chicken", 2, 2, 1, eAppetizer.ChickenSkewers);
+            Assert.AreEqual(eAppetizer.ChickenSkewers, appetizer.AppetizerType);
+        }
+
+        [TestMethod]
         public void InitializeMainDish()
         {
             MainDish mainDish = InitializeDishes.InitializeMainDish("chicken", 2, 2, 1, eMainDish.ChickenBreast);
             Assert.AreEqual(eMainDish.ChickenBreast, mainDish.MainDishType);
         }
+
+        [TestMethod]
+        public void InitializeMainDish2()
+        {
+            MainDish mainDish = InitializeDishes.InitializeMainDish("chicken", 2, 2, 1, eMainDish.Schnitzel);
+            Assert.AreEqual(eMainDish.Schnitzel, mainDish.MainDishType);
+        }
+        
     }
 }

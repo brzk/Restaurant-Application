@@ -14,7 +14,7 @@ namespace DishCreator
             { eAppetizer.ChickenWings, 31 }
       };
 
-        public static Dictionary<eMainDish, int> MainDishRanks = new Dictionary<eMainDish, int>()
+        public static Dictionary<eMainDish, int> MainDishPrices = new Dictionary<eMainDish, int>()
         {
             { eMainDish.ChickenBreast, 42 },
             { eMainDish.Schnitzel, 55 },
