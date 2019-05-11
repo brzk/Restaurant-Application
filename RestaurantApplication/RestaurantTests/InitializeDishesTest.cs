@@ -8,11 +8,11 @@ namespace RestaurantTests
 {
     [TestClass]
     public class InitializeDishesTest
-    {       
+    {
         [TestMethod]
         public void InitializeAppetizer()
         {
-            Appetizer appetizer = InitializeDishes.InitializeAppetizer("chicken", 2, 2, 1, eAppetizer.ChickenNuggets);
+            Appetizer appetizer = InitializeDishes.InitializeAppetizer("chicken", 2, 1, eAppetizer.ChickenNuggets);
             Assert.AreEqual(eAppetizer.ChickenNuggets, appetizer.AppetizerType);
         }
     }

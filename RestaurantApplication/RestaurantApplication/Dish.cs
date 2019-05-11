@@ -15,10 +15,9 @@ namespace RestaurantApplication
         public readonly string Name; 
         public readonly int DinerSerialNumber;
 
-        public Dish(string name, int price , int quantity, int dinerSerialNumber)
+        public Dish(string name, int quantity, int dinerSerialNumber)
         {
-            Name = name;
-            Price = price;
+            Name = name;            
             Quantity = quantity;
             DinerSerialNumber = dinerSerialNumber;            
         }

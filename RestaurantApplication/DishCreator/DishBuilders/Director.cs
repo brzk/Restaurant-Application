@@ -11,6 +11,7 @@ namespace DishCreator.DishBuilders
             dishBuilder.SetMainDishRank();
             dishBuilder.SetSecondDishRank();
             dishBuilder.SetThirdDishRank();
+            dishBuilder.SetDishPrice();
         }
     }
 }
