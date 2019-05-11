@@ -27,7 +27,7 @@ namespace DishCreator
         {
             if (DishRanks.AppetizerRanks.TryGetValue(Appetizer.AppetizerType, out int rank))
             {
-                Appetizer.MainRank = rank;
+                Appetizer.ThirdRank = rank;
             }
         }
         public override void SetDishPrice()
