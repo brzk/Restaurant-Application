@@ -35,6 +35,13 @@ namespace RestaurantMSTest
             MainDish mainDish = InitializeDishes.InitializeMainDish("chicken", 2, 2, 1, eMainDish.Schnitzel);
             Assert.AreEqual(eMainDish.Schnitzel, mainDish.MainDishType);
         }
-        
+
+        [TestMethod]
+        public void InitializeMainDish3()
+        {
+            MainDish mainDish = InitializeDishes.InitializeMainDish("chicken", 2, 2, 1, eMainDish.Schnitzel);
+            Assert.AreEqual(eMainDish.Schnitzel, mainDish.MainDishType);
+        }
+
     }
 }
