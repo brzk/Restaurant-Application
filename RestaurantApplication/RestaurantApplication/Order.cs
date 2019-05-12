@@ -16,18 +16,9 @@ namespace RestaurantApplication
 
         public void SortOrder()
         {
-            SortOrderStrategy.Dishes = Dishes;
-
-            SortOrderStrategy s = new SortOrderThirdRankStrategy();
-            s.Sort();
-
-            s = new SortOrderSecondRankStrategy();
-            s.Sort();
-
-            s = new SortOrderMainRankStrategy();
-            s.Sort();
-
-            Dishes = SortOrderStrategy.Dishes;
+            Dishes = Dishes.Sort(eSortTyps.ThirdRankSort);
+            Dishes = Dishes.Sort(eSortTyps.SecondRankSort);
+            Dishes = Dishes.Sort(eSortTyps.MainRankSort);
         }
     }
 }

@@ -6,7 +6,7 @@ namespace RestaurantApplication.SortOrderMethods
 {
     public abstract class SortOrderStrategy
     {
-        public static List<Dish> Dishes;// = new List<Dish>();
+        public static List<Dish> Dishes { get; set; }
 
         public abstract bool ToSwap(int firstDish, int secondDish);
         
