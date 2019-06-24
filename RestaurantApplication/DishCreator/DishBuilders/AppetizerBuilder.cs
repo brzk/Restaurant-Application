@@ -12,7 +12,7 @@ namespace DishCreator
        
         public override void SetMainDishRank()
         {
-            if (DishRanks.DishesRank.TryGetValue(eDishYypes.Appetizer, out int rank))
+            if (DishRanks.DishesRank.TryGetValue(eDishTypes.Appetizer, out int rank))
             {
                 Appetizer.MainRank = rank;
             }

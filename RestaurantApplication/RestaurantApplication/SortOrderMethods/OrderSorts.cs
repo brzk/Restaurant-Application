@@ -6,11 +6,12 @@ namespace RestaurantApplication.SortOrderMethods
 {
     public static class OrderSorts
     {
-        private static Dictionary<eSortTyps, RankSort> Sorts = new Dictionary<eSortTyps, RankSort>()
+        //private static RankSort RankSort;
+        private static readonly Dictionary<eSortTyps, RankSort> Sorts = new Dictionary<eSortTyps, RankSort>()
         {
             {eSortTyps.MainRankSort, new MainRankSort() },
-            {eSortTyps.MainRankSort, new SecondRankSort() },
-            {eSortTyps.MainRankSort, new ThirdRankSort() }
+            {eSortTyps.SecondRankSort, new SecondRankSort() },
+            {eSortTyps.ThirdRankSort, new ThirdRankSort() }
         };
 
         public static List<Dish> Sort(this List<Dish> dishes, eSortTyps sortTyps)

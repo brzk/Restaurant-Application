@@ -7,7 +7,7 @@ namespace RestaurantApplication
     public class DishTypes
     {
 
-        public enum eDishYypes
+        public enum eDishTypes
         {
             Appetizer,
             MainDish

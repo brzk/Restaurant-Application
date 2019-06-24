@@ -7,10 +7,10 @@ namespace DishCreator
 {
     public static class DishRanks
     {
-        public static Dictionary<eDishYypes, int> DishesRank = new Dictionary<eDishYypes, int>()
+        public static Dictionary<eDishTypes, int> DishesRank = new Dictionary<eDishTypes, int>()
         {
-            { eDishYypes.Appetizer, 1 },
-            { eDishYypes.MainDish, 2 }            
+            { eDishTypes.Appetizer, 1 },
+            { eDishTypes.MainDish, 2 }            
         };
 
 

@@ -22,7 +22,7 @@ namespace RestaurantMSTest.InitializeDishTests
 
             Assert.AreEqual(mainDishType, mainDish.MainDishType);
             Assert.AreEqual(dinerSerialNumber, mainDish.DinerSerialNumber);
-            Assert.AreEqual(DishRanks.DishesRank[eDishYypes.MainDish], mainDish.MainRank);
+            Assert.AreEqual(DishRanks.DishesRank[eDishTypes.MainDish], mainDish.MainRank);
             Assert.AreEqual(name, mainDish.Name);
             Assert.AreEqual(DishPrices.MainDishPrices[mainDishType], mainDish.Price);
             Assert.AreEqual(quantity, mainDish.Quantity);
@@ -41,7 +41,7 @@ namespace RestaurantMSTest.InitializeDishTests
 
             Assert.AreEqual(mainDishType, mainDish.MainDishType);
             Assert.AreEqual(dinerSerialNumber, mainDish.DinerSerialNumber);
-            Assert.AreEqual(DishRanks.DishesRank[eDishYypes.MainDish], mainDish.MainRank);
+            Assert.AreEqual(DishRanks.DishesRank[eDishTypes.MainDish], mainDish.MainRank);
             Assert.AreEqual(name, mainDish.Name);
             Assert.AreEqual(DishPrices.MainDishPrices[mainDishType], mainDish.Price);
             Assert.AreEqual(quantity, mainDish.Quantity);
@@ -60,7 +60,7 @@ namespace RestaurantMSTest.InitializeDishTests
 
             Assert.AreEqual(mainDishType, mainDish.MainDishType);
             Assert.AreEqual(dinerSerialNumber, mainDish.DinerSerialNumber);
-            Assert.AreEqual(DishRanks.DishesRank[eDishYypes.MainDish], mainDish.MainRank);
+            Assert.AreEqual(DishRanks.DishesRank[eDishTypes.MainDish], mainDish.MainRank);
             Assert.AreEqual(name, mainDish.Name);
             Assert.AreEqual(DishPrices.MainDishPrices[mainDishType], mainDish.Price);
             Assert.AreEqual(quantity, mainDish.Quantity);
